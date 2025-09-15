@@ -1,0 +1,203 @@
+{
+  "dataset_info": {
+    "name": "Credit Card Transactions",
+    "description": "Sample credit card transaction data with fine-grained entitlement attributes",
+    "records": 5000,
+    "generated_date": "2025-09-11T14:47:23.981303",
+    "date_range": {
+      "start": "2024-09-11 22:41:53",
+      "end": "2025-09-11 13:33:07"
+    }
+  },
+  "entitlement_dimensions": {
+    "regions": [
+      "US_EAST",
+      "US_WEST",
+      "EUROPE",
+      "ASIA_PAC"
+    ],
+    "customer_tiers": [
+      "PREMIUM",
+      "GOLD",
+      "SILVER",
+      "STANDARD"
+    ],
+    "departments": [
+      "FINANCE",
+      "OPERATIONS",
+      "MARKETING",
+      "COMPLIANCE",
+      "FRAUD",
+      "CUSTOMER_SERVICE"
+    ],
+    "sensitivity_levels": [
+      "PUBLIC",
+      "INTERNAL",
+      "CONFIDENTIAL",
+      "RESTRICTED"
+    ],
+    "risk_levels": [
+      "LOW",
+      "MEDIUM",
+      "HIGH",
+      "CRITICAL"
+    ]
+  },
+  "schema": [
+    {
+      "column": "transaction_id",
+      "type": "object",
+      "sample": "TXN_844C01346A0D"
+    },
+    {
+      "column": "customer_id",
+      "type": "object",
+      "sample": "CUST_770487"
+    },
+    {
+      "column": "merchant_id",
+      "type": "object",
+      "sample": "MERCH_24592"
+    },
+    {
+      "column": "transaction_date",
+      "type": "object",
+      "sample": "2024-10-15 09:07:06"
+    },
+    {
+      "column": "amount",
+      "type": "float64",
+      "sample": "297.29"
+    },
+    {
+      "column": "currency",
+      "type": "object",
+      "sample": "USD"
+    },
+    {
+      "column": "card_number",
+      "type": "object",
+      "sample": "5***-****-****-1488"
+    },
+    {
+      "column": "card_brand",
+      "type": "object",
+      "sample": "MASTERCARD"
+    },
+    {
+      "column": "card_type",
+      "type": "object",
+      "sample": "CREDIT"
+    },
+    {
+      "column": "card_subtype",
+      "type": "object",
+      "sample": "REWARDS"
+    },
+    {
+      "column": "merchant_name",
+      "type": "object",
+      "sample": "Restaurant Store #96"
+    },
+    {
+      "column": "merchant_category_code",
+      "type": "object",
+      "sample": "5812"
+    },
+    {
+      "column": "merchant_category",
+      "type": "object",
+      "sample": "RESTAURANT"
+    },
+    {
+      "column": "merchant_description",
+      "type": "object",
+      "sample": "Eating Places, Restaurants"
+    },
+    {
+      "column": "transaction_status",
+      "type": "object",
+      "sample": "APPROVED"
+    },
+    {
+      "column": "authorization_code",
+      "type": "object",
+      "sample": "AUTH329258"
+    },
+    {
+      "column": "region_code",
+      "type": "object",
+      "sample": "US_EAST"
+    },
+    {
+      "column": "region_name",
+      "type": "object",
+      "sample": "US East"
+    },
+    {
+      "column": "country_code",
+      "type": "object",
+      "sample": "US"
+    },
+    {
+      "column": "timezone",
+      "type": "object",
+      "sample": "America/New_York"
+    },
+    {
+      "column": "customer_tier",
+      "type": "object",
+      "sample": "STANDARD"
+    },
+    {
+      "column": "customer_credit_limit",
+      "type": "int64",
+      "sample": "10000"
+    },
+    {
+      "column": "primary_department",
+      "type": "object",
+      "sample": "OPERATIONS"
+    },
+    {
+      "column": "sensitivity_level",
+      "type": "object",
+      "sample": "INTERNAL"
+    },
+    {
+      "column": "risk_level",
+      "type": "object",
+      "sample": "MEDIUM"
+    },
+    {
+      "column": "risk_score",
+      "type": "float64",
+      "sample": "50.54"
+    },
+    {
+      "column": "is_international",
+      "type": "bool",
+      "sample": "False"
+    },
+    {
+      "column": "is_online",
+      "type": "bool",
+      "sample": "True"
+    },
+    {
+      "column": "processor_response_code",
+      "type": "object",
+      "sample": "41"
+    },
+    {
+      "column": "created_timestamp",
+      "type": "object",
+      "sample": "2025-09-11 14:47:23"
+    },
+    {
+      "column": "updated_timestamp",
+      "type": "object",
+      "sample": "2025-09-11 14:47:23"
+    }
+  ]
+}
