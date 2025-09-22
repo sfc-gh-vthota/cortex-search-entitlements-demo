@@ -1,0 +1,22 @@
+# Requirements for Cortex Search Streamlit Application
+# These packages are pre-installed in Snowflake's Streamlit environment
+
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+plotly>=5.15.0
+snowflake-snowpark-python>=1.9.0
+snowflake>=0.8.0  # Required for snowflake.core module (Python API)
+
+# Note: The following packages are automatically available in Snowflake Streamlit:
+# - snowflake-snowpark-python
+# - snowflake (includes snowflake.core for Python API)
+# - streamlit
+# - pandas
+# - numpy
+# - plotly
+
+# Additional packages (if needed for future enhancements):
+# altair>=4.2.0
+# matplotlib>=3.5.0
+# seaborn>=0.11.0
