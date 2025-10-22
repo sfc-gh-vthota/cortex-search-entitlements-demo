@@ -7,6 +7,7 @@ numpy>=1.24.0
 plotly>=5.15.0
 snowflake-snowpark-python>=1.9.0
 snowflake>=0.8.0  # Required for snowflake.core module (Python API)
+openpyxl>=3.1.0  # Required for Excel file generation
 
 # Note: The following packages are automatically available in Snowflake Streamlit:
 # - snowflake-snowpark-python

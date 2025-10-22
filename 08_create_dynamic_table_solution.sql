@@ -11,7 +11,7 @@ USE SCHEMA TRANSACTIONS;
 
 -- Create a Dynamic Table that automatically maintains the REGION_USER_IDS array
 -- This table will automatically refresh when either TRANSACTIONS or USER_REGION_MAPPING changes
-CREATE OR REPLACE DYNAMIC TABLE transactions_with_entitlements
+CREATE OR REPLACE DYNAMIC TABLE transactions_with_entitlements_1
 TARGET_LAG = '1 minute'
 WAREHOUSE = COMPUTE_WH
 AS
@@ -40,7 +40,7 @@ FROM transactions t;
 -- =============================================================================
 -- CREATE CORTEX SEARCH SERVICE ON DYNAMIC TABLE
 -- =============================================================================
-
+select * From transactions_with_entitlements_1 limit 10;
 -- Drop existing Cortex Search service if it exists
 DROP CORTEX SEARCH SERVICE IF EXISTS transactions_search_service;
 
